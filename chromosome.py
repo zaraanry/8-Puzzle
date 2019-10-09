@@ -1,6 +1,7 @@
 import random
 from copy import deepcopy
 
+a = 15
 
 class Chromosome:
     VALID_MOVES = ['up', 'down', 'left', 'right']
