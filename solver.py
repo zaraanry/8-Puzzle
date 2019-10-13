@@ -4,8 +4,6 @@ import math
 from copy import deepcopy
 from chromosome import Chromosome
 
-a = 15
-
 class GeneticsSolver:
     def __init__(self, puzzle, initial_population=1000, mutation_chance=0.9, cross_over_rate=0.3):
         self.puzzle = puzzle
@@ -122,6 +120,3 @@ class GeneticsSolver:
         #     ))
         # sleep(01.1)
         print('--------------------------------')
-
-
-

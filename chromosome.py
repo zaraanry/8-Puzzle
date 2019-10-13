@@ -1,8 +1,6 @@
 import random
 from copy import deepcopy
 
-a = 15
-
 class Chromosome:
     VALID_MOVES = ['up', 'down', 'left', 'right']
 
@@ -63,4 +61,3 @@ class Chromosome:
 
     def __str__(self):
         return '(%d)  %s' % (len(self.gene), ' -> '.join(self.gene))
-

@@ -3,7 +3,6 @@
 from game import Pad
 from solver import GeneticsSolver
 
-a = 15
 MUTATION_CHANCE = 0.9
 CROSS_OVER_RATE = 0.3
 POPULATION_LEN = 1000

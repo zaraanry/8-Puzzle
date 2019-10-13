@@ -1,8 +1,6 @@
 import numpy as np
 from random import randint, choice
 
-a = 15
-
 class Pad:
     def __init__(self):
         self.board = np.zeros((3, 3))
